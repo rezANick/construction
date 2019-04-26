@@ -1,0 +1,430 @@
+
+        
+    .titre_menu{
+      font-size: 190px;
+      color: #ED6647;
+      font-family:Stencil ;
+      text-transform: uppercase;
+      position: absolute;
+      left: 50%;
+      top: 380px;
+      transform: translate(-50%, -50%);
+    }
+    .titre_avis{
+      font-size: 90px;
+      font-family:Stencil ;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+    }
+    .img_lang{
+      font-size: 20px;
+      font-family:Stencil ;
+      font-weight: bold;
+      position: absolute;
+      left: 50%;
+      top: 200px;
+      transform: translate(-50%, -50%);
+    }
+    .text_lang{
+      font-size: 30px;
+      font-family:Brush Script MT ;
+      font-weight: bold;
+      position: absolute;
+      left: 50%;
+      top: 140px;
+      transform: translate(-50%, -50%);
+      font-style: italic;
+    }
+    
+    .myButton {
+  background-color:white;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px;
+  display:inline-block;
+  cursor:pointer;
+  color:black;
+  font-family:stencil;
+  font-size:67px;
+  padding:16px 31px;
+  text-decoration:none;
+}
+
+#banner {
+    margin-top: 20px;
+    background: #F1892A;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#banner p {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 40px;
+}
+
+.etes_vous {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F63;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+}
+.texte1 {
+    margin-left: 20px;
+    color: #31708f;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: auto;
+}
+
+
+/*Géneral*/
+body {
+    box-sizing: border-box;
+    font-family: 'Crete round', Sans-serif;
+    /*background: #31708f;*/
+    background-size: contain;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.erreur{
+    color: #c12e2a;
+    font-weight: bold;
+}
+
+.monlogo {
+    color: whitesmoke;
+}
+
+#bleu {
+    color: #31708f;
+}
+/*header*/
+header nav {
+    height:61px;
+    background-color: #1b6d85;
+}
+
+#monmenu ul li {
+    padding: 10px 0;
+}
+
+#monmenu ul li a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#monmenu ul li a:hover{
+    border-bottom: solid 2px white;
+}
+
+#monmenu ul li .btn{
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: solid 1px white;
+    text-decoration: none;
+}
+
+#monmenu ul li .btn:hover{
+    background-color: white;
+    color: #0f0f0f;
+}
+
+.dropdown-menu {
+    background: #777777;
+}
+
+
+.activer{
+    border-bottom: solid 2px white;
+}
+
+.icone {
+    height: 50px;
+}
+
+.div-img {
+    padding: 5px 20px;
+}
+
+.nom-bar {
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 20px 5px;
+}
+
+/*corps*/
+#text1{
+    text-align: center;
+    text-justify: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+#corps{
+    display:inline-block;
+    background-color: #D6D6D6;
+    border-radius: 10px;
+}
+
+#corps .container{
+    padding: 10px 0;
+}
+
+.succes {
+    text-align: center;
+    background: white;
+    color: #255625;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#send {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+}
+
+#textform{
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+#textform p {
+    padding: 10px;
+    text-align: center;
+}
+
+#corps h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#envoiform{
+    background: white;
+    margin-top: 70px;
+}
+
+#sendform{
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 34px;
+    font-size: 18px;
+}
+
+#synthese{
+    margin-top: 70px;
+    background: whitesmoke;
+    padding: 20px 10px;
+}
+
+#synthese button {
+    margin-top: 20px;
+}
+
+.taux {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.trait{
+    color: #0f0f0f;
+}
+/*footer*/
+footer {
+    margin-top: 15px;
+    background: #333;
+    padding: 20px 0 40px;
+    color: #fff;
+}
+
+footer div {
+    text-align: center;
+}
+
+.fleche {
+    text-align: center;
+    float: right;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius:20px;
+    font-size: 20PX;
+    margin-right:3px;
+}
+
+
+.social-media {
+
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+#facebook {
+    background-image: url(img/social/facebook.png);
+    background-size: cover;
+    margin-left: 85px;
+
+}
+
+#twitter {
+    background-image: url(img/social/twitter.png);
+    background-size: cover;
+    margin-left: 20px;
+
+}
+
+#youtube {
+    background-image: url(img/social/youtube.png);
+    background-size: cover;
+    margin-left: 20px;
+}
+
+#insta {
+    background-image: url(img/social/insta.png);
+    background-size: cover;
+    margin-left: 20px;
+}
+
+/*suivre*/
+#suivi {
+    margin-top: 80px;
+    background: whitesmoke;
+}
+
+#suivi h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#suivi span {
+    font-size: 12px;
+}
+
+#inscription {
+    background: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#inscription h4 {
+    text-align: center;
+}
+
+.rouge {
+    color: #c12e2a;
+}
+
+#paramphoto{
+    height: 80px;
+}
+
+#infoenvoi {
+    background: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+#infoenvoi span {
+    font-size: 80px;
+}
+
+#infoenvoi h3 {
+    color: #0f0f0f;
+}
+
+#infoenvoi h4 {
+    font-weight: bold;
+}
+
+.champ {
+display: inline-block;
+}
+
+.icone-defaut{
+    margin: 5px;
+    font-size: 25px;
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    width: 40px;
+    height: 40px;
+    padding: 5px 5px;
+}
+
+#side {
+    display:inline-block;
+    background-color: #D6D6D6;
+    border-radius: 10px;
+}
+
+#side h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#user {
+    border: 1px,solid, black;
+}
+
+#side ul li {
+    padding: 10px 0;
+    list-style: none;s
+    
+}
+
+#side ul li a{
+    color: rgb(247, 75, 22);
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+#side ul li a:hover{
+    border-bottom: solid 2px white;
+    background: #31708f;
+    color: #D6D6D6;
+    width: 100%;
+}
+
+
+.glyphicon-user {
+    font-size: 25px
+}
+
+.carousel-caption {
+    background: #e2dddd;
+    border-radius: 80px;
+    margin-bottom: -15px;
+    margin-left: -40px;
+    opacity: 0.9;
+}
+
+#paravente{
+    background: skyblue;
+    border-radius: 7px;
+    padding: 5px 0px;
+}
+
+#paravente a {
+    padding: 0 17px;
+}
+    
